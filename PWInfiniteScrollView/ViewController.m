@@ -23,7 +23,7 @@
                                 [UIImage imageNamed:@"02.jpg"],
                                 [UIImage imageNamed:@"03.jpg"]
                                 ];
-    
+       
     
     PWInfiniteScrollView *infiniteScrollView = [[PWInfiniteScrollView alloc] initWithFrame:self.view.bounds Images:dataSource Auto:YES];
     
