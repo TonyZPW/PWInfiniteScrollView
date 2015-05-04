@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62B3BC01AF762E6005BED6F /* PWQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B3BBF1AF762E6005BED6F /* PWQueue.m */; };
 		E65E644B1AF4A1CF006DAA42 /* 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64471AF4A1CF006DAA42 /* 00.jpg */; };
 		E65E644C1AF4A1CF006DAA42 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64481AF4A1CF006DAA42 /* 01.jpg */; };
 		E65E644D1AF4A1CF006DAA42 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64491AF4A1CF006DAA42 /* 02.jpg */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E62B3BBE1AF762E6005BED6F /* PWQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWQueue.h; sourceTree = "<group>"; };
+		E62B3BBF1AF762E6005BED6F /* PWQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWQueue.m; sourceTree = "<group>"; };
 		E65E64471AF4A1CF006DAA42 /* 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00.jpg; sourceTree = "<group>"; };
 		E65E64481AF4A1CF006DAA42 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		E65E64491AF4A1CF006DAA42 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				E6CAFA5A1AF48DD0005DE6E4 /* ViewController.m */,
 				E6CAFA781AF48DE4005DE6E4 /* PWInfiniteScrollView.h */,
 				E6CAFA791AF48DE4005DE6E4 /* PWInfiniteScrollView.m */,
+				E62B3BBE1AF762E6005BED6F /* PWQueue.h */,
+				E62B3BBF1AF762E6005BED6F /* PWQueue.m */,
 				E6CAFA5C1AF48DD0005DE6E4 /* Main.storyboard */,
 				E6CAFA5F1AF48DD0005DE6E4 /* Images.xcassets */,
 				E6CAFA611AF48DD0005DE6E4 /* LaunchScreen.xib */,
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62B3BC01AF762E6005BED6F /* PWQueue.m in Sources */,
 				E6CAFA7A1AF48DE4005DE6E4 /* PWInfiniteScrollView.m in Sources */,
 				E6CAFA5B1AF48DD0005DE6E4 /* ViewController.m in Sources */,
 				E6CAFA581AF48DD0005DE6E4 /* AppDelegate.m in Sources */,
