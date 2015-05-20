@@ -11,5 +11,5 @@
 @interface PWInfiniteScrollView : UIView
 
 
-- initWithFrame:(CGRect)frame Images:(NSArray *)images Auto:(BOOL)isAuto;
+- initWithFrame:(CGRect)frame Images:(NSArray *)images itemSize:(CGSize)imageSize linespacing:(CGFloat)lineSpacing Auto:(BOOL)isAuto;
 @end

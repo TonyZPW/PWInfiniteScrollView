@@ -25,7 +25,7 @@
                                 ];
        
     
-    PWInfiniteScrollView *infiniteScrollView = [[PWInfiniteScrollView alloc] initWithFrame:self.view.bounds Images:dataSource Auto:YES];
+    PWInfiniteScrollView *infiniteScrollView = [[PWInfiniteScrollView alloc] initWithFrame:self.view.bounds Images:dataSource itemSize:CGSizeMake(100, 100) linespacing:0 Auto:NO];
     
     [self.view addSubview:infiniteScrollView];
     
