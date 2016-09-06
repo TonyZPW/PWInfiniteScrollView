@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1AB2DCF1D7F272C00795742 /* PWInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB2DCE1D7F272C00795742 /* PWInfiniteScrollView.m */; };
 		E65E644B1AF4A1CF006DAA42 /* 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64471AF4A1CF006DAA42 /* 00.jpg */; };
 		E65E644C1AF4A1CF006DAA42 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64481AF4A1CF006DAA42 /* 01.jpg */; };
 		E65E644D1AF4A1CF006DAA42 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E65E64491AF4A1CF006DAA42 /* 02.jpg */; };
@@ -18,7 +19,6 @@
 		E6CAFA601AF48DD0005DE6E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CAFA5F1AF48DD0005DE6E4 /* Images.xcassets */; };
 		E6CAFA631AF48DD0005DE6E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CAFA611AF48DD0005DE6E4 /* LaunchScreen.xib */; };
 		E6CAFA6F1AF48DD0005DE6E4 /* PWInfiniteScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CAFA6E1AF48DD0005DE6E4 /* PWInfiniteScrollViewTests.m */; };
-		E6CAFA7A1AF48DE4005DE6E4 /* PWInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CAFA791AF48DE4005DE6E4 /* PWInfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1AB2DCD1D7F272C00795742 /* PWInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWInfiniteScrollView.h; sourceTree = "<group>"; };
+		B1AB2DCE1D7F272C00795742 /* PWInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWInfiniteScrollView.m; sourceTree = "<group>"; };
 		E65E64471AF4A1CF006DAA42 /* 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00.jpg; sourceTree = "<group>"; };
 		E65E64481AF4A1CF006DAA42 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		E65E64491AF4A1CF006DAA42 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		E6CAFA681AF48DD0005DE6E4 /* PWInfiniteScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWInfiniteScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CAFA6D1AF48DD0005DE6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6CAFA6E1AF48DD0005DE6E4 /* PWInfiniteScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWInfiniteScrollViewTests.m; sourceTree = "<group>"; };
-		E6CAFA781AF48DE4005DE6E4 /* PWInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWInfiniteScrollView.h; sourceTree = "<group>"; };
-		E6CAFA791AF48DE4005DE6E4 /* PWInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWInfiniteScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1AB2DCC1D7F272C00795742 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB2DCD1D7F272C00795742 /* PWInfiniteScrollView.h */,
+				B1AB2DCE1D7F272C00795742 /* PWInfiniteScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		E6CAFA461AF48DD0005DE6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -92,12 +101,11 @@
 		E6CAFA511AF48DD0005DE6E4 /* PWInfiniteScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				B1AB2DCC1D7F272C00795742 /* Classes */,
 				E6CAFA561AF48DD0005DE6E4 /* AppDelegate.h */,
 				E6CAFA571AF48DD0005DE6E4 /* AppDelegate.m */,
 				E6CAFA591AF48DD0005DE6E4 /* ViewController.h */,
 				E6CAFA5A1AF48DD0005DE6E4 /* ViewController.m */,
-				E6CAFA781AF48DE4005DE6E4 /* PWInfiniteScrollView.h */,
-				E6CAFA791AF48DE4005DE6E4 /* PWInfiniteScrollView.m */,
 				E6CAFA5C1AF48DD0005DE6E4 /* Main.storyboard */,
 				E6CAFA5F1AF48DD0005DE6E4 /* Images.xcassets */,
 				E6CAFA611AF48DD0005DE6E4 /* LaunchScreen.xib */,
@@ -240,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CAFA7A1AF48DE4005DE6E4 /* PWInfiniteScrollView.m in Sources */,
+				B1AB2DCF1D7F272C00795742 /* PWInfiniteScrollView.m in Sources */,
 				E6CAFA5B1AF48DD0005DE6E4 /* ViewController.m in Sources */,
 				E6CAFA581AF48DD0005DE6E4 /* AppDelegate.m in Sources */,
 				E6CAFA551AF48DD0005DE6E4 /* main.m in Sources */,
